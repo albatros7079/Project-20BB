@@ -134,16 +134,16 @@ THIS PROJECT IS CREATED BY SAMEER KARNA, STUDENT OF WHITE HAT JR.
                 wall.shapeColor = rgb(210,105,0);
 
         //This calculates the damge of each car.
-            car2_weight = 2500;
-            car2_speed = 60;
+            car2_weight = random(400-1500);
+            car2_speed = random(55-90);
             car2_calculation = 0.5*car2_speed*car2_weight*car2_speed/22500;
 
-            car_speed = 50;
-            car_weight = 2300;
+            car_speed = random(55-90);
+            car_weight = random(400-1500);
             car_calculation = 0.5*car_speed*car_weight*car_speed/22500;
 
-            car3_speed = 90;
-            car3_weight = 1700;
+            car3_speed = random(55-90);
+            car3_weight = random(400-1500);
             car3_calculation = 0.5*car3_speed*car3_weight*car3_speed/22500;
             
     }
